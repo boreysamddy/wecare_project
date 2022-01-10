@@ -7,7 +7,7 @@
    Color Code
    #016060 Main Color
    #f7c151 Second Color
-   #026551 Third Color
+    #016060 Third Color
    */
 /*nav bar start here */
 body{
@@ -17,6 +17,7 @@ body{
    background: #f3f3f3 !important;
    height: 80px;
    box-shadow: 0px 15px 10px -15px #525252;
+   width: 100%;
 }
 .container-fluid{
    padding: 0 80px 0 80px;
@@ -66,7 +67,7 @@ body{
 }
 
 .material-icons{
-   color: #026551;
+   color:  #016060;
    height: 30px;
 }
 
@@ -86,7 +87,7 @@ body{
    width: 300px;
 }
 .inner-line{
-   border-bottom: solid 5px #026551;
+   border-bottom: solid 5px  #016060;
 }
 .col-3{
    padding: 12px;
@@ -130,7 +131,7 @@ body{
 /*<!--Content Ended-->*/
 
 .container-ban{
-   background-color: #026551;
+   background-color:  #016060;
    width: 100%;
    height: 400px;
    margin-top: 90px;
@@ -172,14 +173,18 @@ section {
 
 section .section-title {
    text-align: center;
-   color: #026551;
+   color:  #016060;
    margin-bottom: 50px;
    text-transform: uppercase;
 }
 #footer {
-   background: #026551 !important;
+   background:  #016060 !important;
    padding-left: 80px;
+
 }
+/*.container-footer{
+   width: 100%;
+}*/
 #footer h5{
    padding-left: 10px;
    border-left: 3px solid #eeeeee;
